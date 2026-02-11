@@ -1,0 +1,12 @@
+import sys
+
+if len(sys.argv) == 3:
+    start = int(sys.argv[1])
+    end = int(sys.argv[2])
+        
+    res = list(range(start, end + 1))
+        
+    print(res)
+    
+else:
+    print("none")
